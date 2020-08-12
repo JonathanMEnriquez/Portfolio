@@ -1,14 +1,30 @@
-import React from 'react';
-import logo from '.images/logo.svg';
-import './css/App.css';
+import React, { useState } from 'react';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import { motion, useCycle } from 'framer-motion';
+import Main from './Main';
+import logo from '../images/logo.svg';
+import '../css/App.css';
+import SideNavToggle from './SideNavToggle';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <nav>HOLA</nav>
-      <img src={logo} alt="" />
-    </div>
+    <Router>
+      <div className="main">
+        <SideNavToggle toggle={() => console.log('clicked!')} />
+        <Switch>
+          <Route path="/" exact>
+            <Main />
+          </Route>
+          <Route path="/about">
+            {() => <div>about</div>}
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
-
-export default App;
