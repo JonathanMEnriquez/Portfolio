@@ -1,0 +1,14 @@
+{
+    "main": {
+        "en": {
+            "name": "JONATHAN ENRIQUEZ",
+            "slug": "Full Stack Engineer with 2.5 years of professional experience",
+            "contact": "CONTACT ME!"
+        },
+        "es": {
+            "name": "JONATÁN ENRÍQUEZ",
+            "slug": "Ingeniero de Computación con 2.5 años de experiéncia",
+            "contact": "CONTÁCTEME!"
+        }
+    }
+}

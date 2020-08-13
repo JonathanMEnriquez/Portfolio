@@ -25,7 +25,8 @@ const SideNavToggle = (props) => {
     return (
         <motion.button className="sidenav-toggle"
                 onClick={toggle}
-                whileHover={{ scale: 1.1 }}>
+                whileHover={{ scale: 1.1 }}
+                whileTap={{ scale: 0.95 }}>
             <motion.svg
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 90 200"

@@ -5,16 +5,14 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import { motion, useCycle } from 'framer-motion';
 import Main from './Main';
-import logo from '../images/logo.svg';
 import '../css/App.css';
 import SideNavToggle from './SideNavToggle';
 
 export default function App() {
   return (
     <Router>
-      <div className="main">
+      <div className="container">
         <SideNavToggle toggle={() => console.log('clicked!')} />
         <Switch>
           <Route path="/" exact>
@@ -22,6 +20,12 @@ export default function App() {
           </Route>
           <Route path="/about">
             {() => <div>about</div>}
+          </Route>
+          <Route path="/portfolio">
+            {() => <div>PORTFOLIO HOMESE J AFJEKJ FEJKFEJAKFE AEJ FJAEE</div>}
+          </Route>
+          <Route path="/contact">
+            {() => <div>CONTACT ME COANTQA CONTACT ME</div>}
           </Route>
         </Switch>
       </div>
