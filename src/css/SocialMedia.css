@@ -1,0 +1,11 @@
+.side-nav-contents .social-media svg {
+    fill: rgb(177, 177, 177);
+    width: 24px;
+    height: 24px;
+    margin-bottom: 14px;
+}
+
+.side-nav-contents .social-media #github {
+    width: 30px;
+    height: 30px;
+}

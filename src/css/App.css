@@ -3,3 +3,14 @@
   height: 100vh;
   overflow: hidden;
 }
+
+.container .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  /* width of menutoggle plus scale */
+  width: calc(80px * 1.1);
+  background: rgb(19, 19, 19);
+  z-index: 100;
+}
