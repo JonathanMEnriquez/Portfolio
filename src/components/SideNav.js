@@ -1,10 +1,9 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
-import '../css/SideNav.css';
 import SocialMedia from './SocialMedia';
+import '../css/SideNav.css';
 
-const SideNav = ({ setLang, history }) => {
-    console.log(history && history.location, 'amigo');
+const SideNav = ({ setLang }) => {
     return (
         <div className="side-nav-contents">
             <div className="set-lang">

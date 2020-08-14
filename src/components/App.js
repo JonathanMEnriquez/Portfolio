@@ -1,9 +1,8 @@
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  useHistory
+  Route
 } from "react-router-dom";
 import { motion, useCycle } from "framer-motion";
 import Main from './Main';
@@ -12,8 +11,8 @@ import MenuToggle from './MenuToggle';
 import SideNav from './SideNav';
 
 const sidebar = {
-  open: (height = 1000) => ({
-    clipPath: `circle(${height * 2 + 200}px at 36px 36px)`,
+  open: (height = window.innerHeight) => ({
+    clipPath: `circle(${height * 1.2 + 200}px at 36px 36px)`,
     transition: {
       type: "spring",
       stiffness: 20,
@@ -34,8 +33,6 @@ const sidebar = {
 export default function App() {
   const [isOpen, toggleOpen] = useCycle(false, true);
   const [lang, setLang] = useState('en');
-  let history = useHistory();
-  console.log('oh no! ', history);
 
   return (
     <Router>
@@ -44,7 +41,7 @@ export default function App() {
           animate={isOpen ? 'open' : 'closed'}>
           <motion.div className="background"
             variants={sidebar}>
-              <SideNav setLang={setLang} history={history} />
+              <SideNav setLang={setLang} />
           </motion.div>
           <MenuToggle toggle={toggleOpen} />
         </motion.nav>

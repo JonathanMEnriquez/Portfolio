@@ -5,6 +5,8 @@ import contentJSON from '../json/content.json';
 import codeIcon from '../images/coding.png';
 import '../css/Main.css';
 import MainPic from './MainPic';
+import Button from './Button';
+import SocialMedia from './SocialMedia';
 
 const Main = ({ lang }) => {
     const [cursor, setCursor] = useState(false);
@@ -40,6 +42,12 @@ const Main = ({ lang }) => {
                     <span>{text.slug}</span>
                 </div>
                 <h5 className="languages">Javascript | Python | Java | HTML | CSS</h5>
+                {/* // Button
+                // social media */}
+                <div className="contact">
+                    <Button content={<Link to="/contact" >{text.contact}</Link>} callback={null} />
+                    <SocialMedia />
+                </div>
             </section>
             <section className="pic-section">
                 <MainPic />

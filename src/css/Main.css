@@ -13,19 +13,19 @@
     height: 100%;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, minmax(132px, 1fr));
+    grid-template-rows: repeat(6, minmax(132px, 1fr));
 }
 
 .main > section.info-section > .header {
     grid-column: 1;
     grid-row: 1 / 3;
-    color: rgb(228, 228, 228);
+    color: rgb(241, 241, 241);
     display: flex;
     align-items: flex-end;
     justify-content: center;
     font-size: 3.25vw;
-    padding-left: 6vw;
     font-weight: 200;
+    padding-left: 2vw;
 }
 
 .main > section.info-section > .slug {
@@ -45,12 +45,23 @@
 .main > section.info-section > .languages {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 6%;
+    padding-top: 4%;
     width: 100%;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     text-align: center;
-    color: rgb(121, 121, 121);
+    color: rgb(168, 168, 168);
     font-family: 'Noto Sans JP', Roboto, -apple-system;
+}
+
+.main > section.info-section > .contact {
+    grid-column: 1;
+    grid-row: 5;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 32px;
 }
 
 /* elements */
@@ -68,7 +79,7 @@
     height: 5vw;
     padding: 4px;
     margin-right: 2vw;
-    background-color: #3e66aa;
+    background-color: #c7a40a;
     border-radius: 100%;
     cursor: pointer;
     position: relative;
@@ -81,6 +92,33 @@
     width: 74%;
 }
 
+.main > .info-section .contact .social-media {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main > .info-section .contact .social-media svg {
+    width: 16px;
+    height: 16px;
+    fill: rgb(228, 228, 228);
+    margin: 16px 0 0;
+    padding: 0 10px;
+    border-right: 2px solid white;
+}
+
+.main > .info-section .contact .social-media a:last-child > svg {
+    border-right: 0;
+}
+
+.main > section.info-section > .contact .button {
+    font-size: 1.6vw;
+    width: 18vw;
+    height: 60px;
+    text-transform: uppercase;
+}
+
 /* pic-section */
 
 .main > .pic-section {
@@ -90,6 +128,10 @@
 }
 
 @media only screen and (max-width: 1020px) {
+    .main {
+        grid-gap: 0;
+    }
+
     .main > section.pic-section {
         grid-row: 1;
         display: block;
@@ -99,20 +141,21 @@
     }
 
     .main > section.info-section {
-        grid-row: 2;
-        grid-template-rows: repeat(5, minmax(24px, 1fr));
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     .main > section.info-section > .header {
         font-size: 5vw;
-        align-items: flex-start;
-        padding-top: 32px;
     }
 
     .main > section.info-section > .slug {
         width: calc(100% - 160px);
         align-items: flex-start;
         border: 0;
+        padding-top: 14px;
     }
 
     .main > .info-section .slug > span {
@@ -123,7 +166,13 @@
     .main > section.info-section > .languages {
         font-size: 2vw;
         margin-left: 0;
+    }
 
+    .main > section.info-section > .contact .button {
+        width: 24vw;
+        height: 5vw;
+        font-size: 2.2vw;
+        border-radius: 4px;
     }
 }
 
