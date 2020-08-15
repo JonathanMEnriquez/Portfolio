@@ -37,10 +37,43 @@
     margin-bottom: 0;
 }
 
+.about > section.info > p a {
+    color: unset;
+    text-decoration: none;
+}
+
+.about > section.info > p a:hover {
+    text-decoration: underline;
+}
+
+.about > section.info > div.schools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about > section.info svg {
+    fill: rgba(255, 255, 255, 0.918);
+    margin-right: 1vw;
+}
+
+.about > section.info img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.about > section.info #institutions {
+    padding-top: 8px;
+}
+
+.about > section.info .logo {
+    fill: #e9c73e;
+}
+
 @media only screen and (max-width: 1020px) {
     .about > section.info {
         display: block;
-        margin: 0;
+        width: 80%;
     }
 
     .about > section.info > h1 {
@@ -88,3 +121,5 @@
         overflow: auto !important;
     }
 }
+
+/* .cls-1{fill:#231f20}.cls-2{fill:none;stroke:#231f20;stroke-width:2.17px} */
