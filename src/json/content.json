@@ -2,13 +2,31 @@
     "main": {
         "en": {
             "name": "JONATHAN ENRIQUEZ",
-            "slug": "Full Stack Engineer with 2.5 years of professional experience",
+            "slug": "Software Engineer who enjoys coding far more than is healthy",
             "contact": "CONTACT ME!"
         },
         "es": {
             "name": "JONATÁN ENRÍQUEZ",
             "slug": "Ingeniero de Computación con 2.5 años de experiencia",
             "contact": "CONTÁCTEME!"
+        }
+    },
+    "about": {
+        "en": {
+            "header": "about me",
+            "story": {
+                "main": "For the past 2.5 years, I've been a full stack engineer. As for which 'end' I prefer, that depends on the day you ask me.",
+                "main_2": "I really love coding so much that I almost always have a personal project that I'm working on (I'm currently working on a cool digital card game), try to complete a udemy course once a month, and enrolled myself in an online M.S. Computer Science program at Georgia Tech.",
+                "main_3": "At work, I strive to writing readable, efficient and elegant code.",
+                "enjoy_most_q": "favorite part about coding?",
+                "enjoy_most_a": "The problem-solving aspect of coding is what I enjoy the most. I love coming up with refactors or different approaches that work better...sometimes even in my dreams!",
+                "history": "maybe",
+                "hobbies_q": "hobbies",
+                "hobbies_a": "When I'm not developing, I'll be smoking meats -- like brisket YUM!!! --, cooking, grillin', playing basketball  (not so much lately), or playing piano"
+            }
+        },
+        "es": {
+            "header": "quién soy"
         }
     }
 }
