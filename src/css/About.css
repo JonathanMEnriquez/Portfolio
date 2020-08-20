@@ -70,6 +70,23 @@
     fill: #e9c73e;
 }
 
+@media only screen and (max-width: 1415px) {
+    .about > section.info > h1 {
+        font-size: 3vw;
+        text-align: right;
+    }
+    
+    .about > section.info > p {
+        font-size: 1.7vw;
+        line-height: 2vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .about > section.info > p.question {
+        font-size: 1.2vw;
+    }
+}
+
 @media only screen and (max-width: 1020px) {
     .about > section.info {
         display: block;

@@ -20,14 +20,58 @@
                 "main_3": "At work, I strive to writing readable, efficient and elegant code.",
                 "enjoy_most_q": "favorite part about coding?",
                 "enjoy_most_a": "The problem-solving aspect of coding is what I enjoy the most. I love coming up with refactors or different approaches that work better...sometimes even in my dreams!",
-                "history": "maybe",
+                "history": "MAYBE TALK ABOUT SOCIAL WORK AND CAREER CHANGE?",
                 "hobbies_q": "hobbies",
                 "hobbies_a": "When I'm not developing, I'll be smoking meats -- like brisket YUM!!! --, cooking, grillin', playing basketball  (not so much lately), or playing piano",
                 "contact": "Don't hesitate to reach out! I might be able to help!"
+            },
+            "imageInfo": {
+                "toon1": "Our dogs - Teddy and Maybe",
+                "toon2": "My wife Laura and I",
+                "toon3": "The fam",
+                "toon4": "Learning to snowboard",
+                "toon5": "Chichen Itza on our Mexico trip",
+                "toon6": "At a Lakers game",
+                "toon7": "Some ribs I just pulled from the smoker",
+                "toon8": "After an AWS Hackathon...running on fumes",
+                "toon9": "In the Bamboo Forest: Tokyo, Japan",
+                "toon10": "Maybe and Teddy - our happy dogs",
+                "toon11": "Enjoying our Santa Barbara trip",
+                "toon12": "Inside an old military sub",
+                "toon13": "Photo booth fun",
+                "toon14": "Having a great time with my parents",
+                "toon15": "Out in Tahoe for a winter trip",
+                "toon16": "Enjoying a hike on the Griffith trail"
             }
         },
         "es": {
-            "header": "quién soy"
+            "header": "quién soy",
+            "imageInfo": {
+                "toon1": "Nuestros perritos - Teddy y Maybe",
+                "toon2": "Mi esposa Laura y yo",
+                "toon3": "Nuestra familia",
+                "toon4": "Aprendiendo como hacer 'snowboard'",
+                "toon5": "La gran pirámide de Chichen Itza",
+                "toon6": "Viendo un partido de los Lakers",
+                "toon7": "Unas costillitas que recién saqué del horno para ahumar",
+                "toon8": "Después del Hackathon organizado por AWS",
+                "toon9": "El en bosque de bambú en el Japón",
+                "toon10": "Maybe y Teddy - nuestros perritos felices",
+                "toon11": "Disfrutando el viaje a Santa Bárbara",
+                "toon12": "Adentro de un submarino viejo",
+                "toon13": "Disfrutando del fotomatón",
+                "toon14": "Divirtiéndome con mis papás",
+                "toon15": "En un viajo a lago de Tahoe",
+                "toon16": "En una caminata el sendero del parque Griffith"
+            }
+        }
+    },
+    "portfolio": {
+        "en": {
+            "header": "portfolio snippets",
+            "technology": {
+
+            }
         }
     }
 }

@@ -4,6 +4,18 @@
     display: grid;
     grid-template-columns: repeat(3, minmax(240px, 1fr));
     grid-template-rows: repeat(3, minmax(280px, 1fr));
+    position: relative;
+}
+
+.gallery > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    fill: rgb(238, 238, 238);
+    width: 48px;
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.548);
+    border-radius: 0 0 10px 0;
 }
 
 @media only screen and (max-width: 1020px) {

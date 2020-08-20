@@ -14,6 +14,7 @@ const About = ({ lang }) => {
                 <h1>{text.header}</h1>
                 <p>{text.story.main}</p>
                 <p>{text.story.main_2}</p>
+                <p>{text.story.history}</p>
                 <p>{text.story.main_3}&nbsp;
                     <Link to="contact">
                         {text.story.contact}
@@ -49,7 +50,7 @@ const About = ({ lang }) => {
                 </div>
             </section>
             <section className="pics">
-                <Gallery />
+                <Gallery content={text.imageInfo} />
             </section>
         </div>
     );

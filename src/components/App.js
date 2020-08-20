@@ -10,6 +10,7 @@ import '../css/App.css';
 import MenuToggle from './MenuToggle';
 import SideNav from './SideNav';
 import About from './About';
+import Portfolio from './Portfolio';
 
 const sidebar = {
   open: (height = window.innerHeight) => ({
@@ -55,7 +56,7 @@ export default function App() {
             <About lang={lang} />
           </Route>
           <Route path="/portfolio">
-            {() => <div>PORTFOLIO HOMESE J AFJEKJ FEJKFEJAKFE AEJ FJAEE</div>}
+            <Portfolio lang={lang} />
           </Route>
           <Route path="/contact">
             {() => <div>CONTACT ME COANTQA CONTACT ME</div>}
