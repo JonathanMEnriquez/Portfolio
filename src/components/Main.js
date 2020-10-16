@@ -9,8 +9,8 @@ import Button from './Button';
 import SocialMedia from './SocialMedia';
 
 const Main = ({ lang }) => {
-    const [cursor, setCursor] = useState(false);
     const text = contentJSON.main[lang || 'en'];
+    const [cursor, setCursor] = useState(false);
 
     const startCursor = function () {
         let cVal = cursor;
@@ -41,7 +41,17 @@ const Main = ({ lang }) => {
                     </motion.div>
                     <span>{text.slug}</span>
                 </div>
-                <h5 className="languages">Javascript | Python | Java | HTML | CSS</h5>
+                <p className="languages">
+                    <Link to="/portfolio?tech=javascript">Javascript</Link>
+                    <span> | </span>
+                    <Link to="/portfolio?tech=python">Python</Link>
+                    <span> | </span>
+                    <Link to="/portfolio?tech=java">Java</Link>
+                    <span> | </span>
+                    <Link to="/portfolio?tech=html">HTML</Link>
+                    <span> | </span>
+                    <Link to="/portfolio?tech=css">CSS</Link>
+                </p>
                 {/* // Button
                 // social media */}
                 <div className="contact">

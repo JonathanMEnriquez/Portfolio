@@ -119,6 +119,16 @@
     text-transform: uppercase;
 }
 
+.main > section.info-section .languages a {
+    color: unset;
+    text-decoration: none;
+    margin: 0 2px;
+}
+
+.main > section.info-section .languages > a:hover {
+    color: #c7a408c7;
+}
+
 /* pic-section */
 
 .main > .pic-section {

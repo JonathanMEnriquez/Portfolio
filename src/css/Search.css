@@ -1,0 +1,105 @@
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.search .search-container {
+    background: url('../images/backsearch.png') no-repeat;
+    opacity: 0.5;
+    padding: 0;
+    position: relative;
+    width: 376px;
+    border-radius: 24px;
+}
+
+.search .search-container > input {
+    width: 328px;
+    height: 29px;
+    background: transparent;
+    border-bottom: 0.5px solid #f3f3f3;
+    border-radius: 24px;
+    box-shadow: inset 0 1px 0px rgb(103 103 103);
+    padding: 0 10px 0 32px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    outline: none;
+    color: #ffffff;
+}
+
+.search .search-container > span {
+    display: block;
+    background: url("../images/search.png") no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 6px;
+    left: 8px;
+}
+
+.search .search-results {
+    visibility: hidden;
+    position: absolute;
+    top: 58px;
+    padding: 1.5vh 0 1.5vh 24px;
+    width: calc(366px - 24px);
+    margin-right: 4px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    background-color: rgba(37, 37, 37, 0.98);
+}
+
+.search .search-results a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.search .search-results a:not(:last-of-type) {
+    margin-bottom: 2vh;
+}
+
+.search .search-results a:hover {
+    background-color: rgb(44, 44, 44);
+}
+
+.search .search-results a.selected {
+    color: rgb(204, 190, 59);
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 793px) and (min-width: 429px) {
+    .search .search-results {
+        top: 120px;
+        padding: 1.5vh 0 1.5vh 24px;
+        width: calc(366px - 24px);
+        margin-right: 4px;
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    .search .search-results {
+        top: 140px;
+    }
+}
+
+@media only screen and (max-width: 505px) {
+    .search .search-results {
+        top: 180px;
+    }
+}
+
+@media only screen and (max-width: 428px) {
+    .search .search-container {
+        width: 92%;
+    }
+    
+    .search .search-container > input {
+        width: 90%;
+        height: 3vw;
+        font-size: 20px;
+        letter-spacing: 0.5px;
+        padding: 8px;
+    }
+}

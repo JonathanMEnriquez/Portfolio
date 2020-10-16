@@ -11,6 +11,10 @@ import MenuToggle from './MenuToggle';
 import SideNav from './SideNav';
 import About from './About';
 import Portfolio from './Portfolio';
+import WindowResizeListener from '../helpers/windowResizeListener';
+import Contact from './Contact';
+
+const windowListener = new WindowResizeListener();
 
 const sidebar = {
   open: (height = window.innerHeight) => ({
@@ -56,10 +60,10 @@ export default function App() {
             <About lang={lang} />
           </Route>
           <Route path="/portfolio">
-            <Portfolio lang={lang} />
+            <Portfolio lang={lang} windowListener={windowListener} />
           </Route>
           <Route path="/contact">
-            {() => <div>CONTACT ME COANTQA CONTACT ME</div>}
+            <Contact lang={lang} />
           </Route>
         </Switch>
       </div>

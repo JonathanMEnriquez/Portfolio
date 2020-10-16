@@ -15,6 +15,9 @@ import toon13 from '../images/toon13.png';
 import toon14 from '../images/toon14.png';
 import toon15 from '../images/toon15.png';
 import toon16 from '../images/toon16.png';
+import toon17 from '../images/toon17.png';
+import toon18 from '../images/toon18.png';
+import toon19 from '../images/toon19.png';
 import '../css/Gallery.css';
 import GalleryImage from './GalleryImage';
 
@@ -24,7 +27,8 @@ const toonArr = [
     { name: 'toon7', img: toon7 }, { name: 'toon8', img: toon8 }, { name: 'toon9', img: toon9 }, 
     { name: 'toon10', img: toon10 }, { name: 'toon11', img: toon11 }, { name: 'toon12', img: toon12 }, 
     { name: 'toon13', img: toon13 }, { name: 'toon14', img: toon14 }, { name: 'toon15', img: toon15 }, 
-    { name: 'toon16', img: toon16 }
+    { name: 'toon16', img: toon16 }, { name: 'toon17', img: toon17 }, { name: 'toon18', img: toon18 },
+    { name: 'toon19', img: toon19 }
 ];
 
 const tooltipConfig = {

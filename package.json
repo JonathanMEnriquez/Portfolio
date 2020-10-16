@@ -12,7 +12,8 @@
     "react-router-dom": "5.2.0",
     "react-routing": "0.0.7",
     "react-scripts": "3.4.1",
-    "react-tooltip": "^4.2.8"
+    "react-tooltip": "4.2.8",
+    "react-youtube": "7.12.0"
   },
   "scripts": {
     "start": "react-scripts start",
