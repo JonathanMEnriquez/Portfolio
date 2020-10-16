@@ -11,7 +11,7 @@
     height: 700px;
     background: rgb(255, 255, 255);
     margin: 0 auto;
-    border-radius: 44px;
+    border-radius: 24px;
     color: black;
     text-align: center;
 }
@@ -39,13 +39,78 @@
 
 .contact .card header .info > p:first-of-type {
     color: rgb(84, 201, 201);
-    font-size: 24px;
+    font-size: 19px;
     font-weight: bold;
     padding-top: 16px;
+}
+
+.contact .card header .info > p:nth-of-type(2) {
+    color: rgb(148, 148, 148);
+    padding-top: 4px;
 }
 
 .contact .card header .addr {
     padding-top: 8px;
     color: rgb(148, 148, 148);
     font-size: 14px;
+}
+
+.contact .card footer {
+    padding-top: 16px;
+}
+
+.contact .card footer .top {
+    width: 100%;
+    height: 124px;
+    background-color: #2cc6cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .card footer .top > div a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 21px;
+}
+
+.contact .card footer .top > div a:hover {
+    color: white;
+}
+
+.contact .card footer .options {
+    width: 100%;
+    height: 204px;
+    display: flex;
+}
+
+.contact .card footer .options > div {
+    height: 200px;
+    flex-basis: 33%;
+    background-color: #2cc6cd;
+    border-top: 4px solid rgb(140, 235, 235);
+    border-left: 4px solid rgb(140, 235, 235);
+    border-bottom: 4px solid rgb(140, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .card footer .bottom {
+    height: 24px;
+    width: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #2cc6cd;
+}
+
+.contact .card footer .options a > svg {
+    fill: #1d7a7b;
+    width: 112px;
+    cursor: pointer;
+}
+
+.contact .card footer .options > div:nth-of-type(2) a > svg {
+    padding-left: 8px;
+    width: 140px;
 }

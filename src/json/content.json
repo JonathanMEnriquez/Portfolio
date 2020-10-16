@@ -338,7 +338,11 @@
                 "address": "Clemson St.",
                 "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90016"
+                "zip": "90016",
+                "email": "jenriquezdev@gmail.com"
+            },
+            "resume": {
+                "download": "DOWNLOAD UPDATED RESUME"
             }
         },
         "es": {
@@ -346,7 +350,11 @@
                 "address": "Clemson St.",
                 "city": "Los Angeles",
                 "state": "CA",
-                "zip": "90016"
+                "zip": "90016",
+                "email": "jenriquezdev@gmail.com"
+            },
+            "resume": {
+                "download": "DESCARGUE MI RESUMEN ACTUAL"
             }
         }
     }
