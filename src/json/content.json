@@ -77,7 +77,7 @@
             "header": "portfolio snippets",
             "technology": {
                 "default": {
-                    "description": "Click on the tech/language on the right to get more detailed information on my experience with that particular technology. You can also use the search to find a specific entry or adjust the 'tech' query param above.",
+                    "description": "Click on the tech/language on the right to get more detailed information on my experience with that particular technology. You can also use the search input to find a specific entry or adjust the 'tech' query param above.",
                     "alias": [],
                     "related": []
                 },
@@ -91,7 +91,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "typescript": {
-                    "description": "Javascript see also json",
+                    "description": "Most of my experience with Typescript stems from my time as a teaching assistant at a coding bootcamp called Coding Dojo. It is something that I will be utilizing in my upcoming project revolving around a game for meme lovers, in order to strengthen my Typescript skills.",
                     "alias": ["ts"],
                     "related": ["express", "react", "javascript", "angular", "mean", "mern", "knockoutjs", "node"],
                     "experience": "Non-professional experience of 3 months",
@@ -115,7 +115,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "flask": {
-                    "description": "see also pycharm",
+                    "description": "Flask was the very first backend technology I ever learned. I also taught it during my time as a teaching assistant to students who were mainly new to coding. I have yet to use it outside of student projects as the professional projects I've worked on in Python have exclusively been Django-backed.",
                     "alias": ["pythonflask"],
                     "related": ["django", "python", "backend"],
                     "experience": "Non-professional experience of 3 months",
@@ -130,15 +130,15 @@
                     "total": 2
                 },
                 "databases": {
-                    "description": "db, dbs",
+                    "description": "I have been fortunate to work as a full stack developer on both sql and Nosql databases on every professional project I've been on. The experience of approaching each problem with an appropriate ",
                     "alias": ["db", "dbs"],
-                    "related": ["mongodb", "sql", "mysql", "oraclesql", "backend"],
+                    "related": ["mongodb", "sql", "mysql", "oraclesql", "backend", "fullstack"],
                     "experience": "~3 years",
                     "total": 6,
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "mongodb": {
-                    "description": "mongo",
+                    "description": "Mongo is the database technology I have the most experience with. I very much like the JSON-like structure of the data for for simpler unrelated designs. Experience includes, Mongo pipeline use and some work with Atlas.",
                     "alias": ["mongo"],
                     "related": ["databases", "backend"],
                     "experience": "~3 years",
@@ -146,7 +146,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "mysql": {
-                    "description": "mysql",
+                    "description": "My latest project, which involves many related tables, is utilizing MySQL as the database.",
                     "alias": ["mysqldb", "mysqldatabase"],
                     "related": ["databases", "oraclesql", "sql", "backend"],
                     "experience": "~3 years",
@@ -179,7 +179,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "mean": {
-                    "description": "angular 5 6 7",
+                    "description": "The MongoDB - Express - Angular - Node stack was the stack I got my first professional contract experience. It was my go-to stack during my first 6 months as a professional.",
                     "alias": [],
                     "related": ["fullstack", "mongodb", "express", "angular", "node", "mern"],
                     "allCaps": true,
@@ -188,7 +188,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "mern": {
-                    "description": "angular 5 6 7",
+                    "description": "The MongoDB - Express - React - Node stack is the newest stack I've worked with, utilizing it in my latest Meme-related game (one-part Desktop app, one-part web app). Its simplicity is a big plus for this stack.",
                     "alias": [],
                     "related": ["fullstack", "mongodb", "express", "react", "node", "mean"],
                     "allCaps": true,
@@ -204,22 +204,15 @@
                     "total": 1
                 },
                 "aws": {
-                    "description": "amazonwebservices amazon - ec2 kinesis s3 lambda elastic beanstalk cloudfront",
+                    "description": "I have some experience deploying personal and some professional projects, though I am in no means a DevOps engineer. Technologies I have experience with include EC2, Kinesis, S3, Lambda, Elastic Beanstalk, Cloudfront to varying degrees. I have deployed personal projects on EC2 and S3, and have utilized the rest professionally while working at TechEmpower.",
                     "alias": ["amazonwebservices", "amazon", "ec2", "kinesis", "s3", "lambda", "elasticbeanstalk", "cloudfront"],
-                    "related": ["serverless"],
+                    "related": [],
                     "allCaps": true,
                     "experience": "~3 years",
                     "total": 3
                 },
-                "serverless": {
-                    "description": "s3 lambda cloudfront",
-                    "alias": [],
-                    "related": ["aws"],
-                    "experience": "2 months",
-                    "total": 1
-                },
                 "html": {
-                    "description": "html5",
+                    "description": "HTML, the markdown language that serves as the foundation of web pages. I've had extensive experience laying out web pages and templates it, as well as using templating engines. I have recentlly been studying the parsing process that the browser does with the HTML elements with great interest. I personally love that it prepped me for working with other Markdown languages.",
                     "alias": ["html5"],
                     "related": ["css", "javascript", "frontend"],
                     "allCaps": true,
@@ -228,7 +221,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "css": {
-                    "description": "css3",
+                    "description": "What I most like about CSS is the sheer amount of ways that it lets you select and change an HTML element's style. Recently, I have been trying to master using the pseudo-elements as well as improving my use of animations and transitions.",
                     "alias": ["css3"],
                     "related": ["css", "sass", "frontend"],
                     "allCaps": true,
@@ -237,28 +230,28 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "sass": {
-                    "description": "",
+                    "description": "I worked on a year-long project where the CSS preprocessor SASS was used. I liked the syntax and being able to more overtly associate elements - nesting also felt more natural to me. I have switched to using it on my latest personal project, as well.",
                     "alias": ["less"],
                     "related": ["css", "frontend"],
                     "experience": "1 year",
                     "total": 1
                 },
                 "java": {
-                    "description": "",
+                    "description": "Java is the newest language I've learned professionally. It was a great learning experience the past 18 months learning how to code for a statically-typed language, being that my two strongest languages (Javascript and Python) are both dynamically-typed.  I look forward to continuing to work with Java in the future. ",
                     "alias": [],
                     "related": ["jersey"],
                     "experience": "1 year",
                     "total": 1
                 },
                 "jersey": {
-                    "description": "",
+                    "description": "Java's Jersey was the framework I worked in the past year and a half for a cybersecurity application. Though I was still learning the language, I was able to positively contribute on the backend, including writing unit tests and some features.",
                     "alias": [],
                     "related": ["java", "backend"],
                     "experience": "1 year",
                     "total": 1
                 },
                 "reactnative": {
-                    "description": "",
+                    "description": "I contributed to a React Native training application during its last push to release. It was during the time when I hadn't even worked with React, so it was definitely a little challenging. However, I was able to contribute to its on-time release.",
                     "alias": ["rn"],
                     "related": ["pwa", "react", "javascript"],
                     "display": "React Native",
@@ -266,7 +259,7 @@
                     "total": 1
                 },
                 "pwa": {
-                    "description": "pwa",
+                    "description": "Having released Stream Panel as a Progressive Web App, I was very happy with the benefits and easy transition it was building it out as a PWA in lieu of natively. The benefits of not having to support older versions and great support also stand out. For anything other than a game, PWA is a strong option.",
                     "alias": ["progressivewebapps", "progressivewebapp", "progressivewebapplications", "progressivewebapplication"],
                     "related": ["react", "javascript", "reactnative"],
                     "allCaps": true,
@@ -274,7 +267,7 @@
                     "total": 1
                 },
                 "frontend": {
-                    "description": "fe",
+                    "description": "From modernizing navbars to adding forms to doing some UX/UI work (and taking a course on it), I have quite a bit of experience doing frontend work. I have experience doing vanilla frontends (ES5 and HTML) and working with libraries and frameworks (Angular, React, Knockout, JQuery).",
                     "alias": ["frontenddev", "frontenddevelopment", "ui", "ux", "ux/ui"],
                     "related": ["knockoutjs", "react", "javascript", "angular"],
                     "experience": "~3 years",
@@ -282,7 +275,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "backend": {
-                    "description": "be",
+                    "description": "From adding new collections or tables to creating REST endpoints to processing data, I have contributed heavily on backends for in-production projects. This has run the gamut from Python, Javascript and Java backends hooked up to No-SQL and SQL databases.",
                     "alias": ["backenddev", "backenddevelopment"],
                     "related": ["jquery", "express", "node", "django", "flask"],
                     "experience": "~3 years",
@@ -298,7 +291,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "fullstack": {
-                    "description": "ex",
+                    "description": "All of my professional experience has been working as a full-stack developer. I have worked on the frontend with frameworks and libraries (and vanilla, as well), and have worked on the backend with a diverse array of frameworks. I enjoy it very much as I get to constantly be challenged to learn to work with a new technology. There's never a dull moment.",
                     "alias": ["fullstackdev", "fullstackdevelopment"],
                     "related": ["backend", "frontend", "mern", "mern"],
                     "experience": "~3 years",
@@ -322,7 +315,7 @@
                     "display": "JQuery"
                 },
                 "rest": {
-                    "description": "REST",
+                    "description": "I have implemented RESTful API endpoints for frameworks in Python (Django), Javascript (Express, Node), and Java (Jersey). From simple CRUD operations to more complicated data processing, I have implemented a wide variety of RESTful endpoints on a diverse array of web applications.",
                     "alias": ["restfulapis, restfulapi, restful"],
                     "related": ["backend", "fullstack", "django", "express", "node"],
                     "experience": "~3 years",
