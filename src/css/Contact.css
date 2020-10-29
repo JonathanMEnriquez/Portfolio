@@ -1,0 +1,164 @@
+.contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact .header {
+    width: calc(100% - 110px);
+    padding-left: 110px;
+}
+
+.contact .header h1 {
+    font-size: 3vw;
+    padding: 2vw 0;
+}
+
+.contact div.card {
+    display: block;
+    width: 500px;
+    height: 700px;
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+    border-radius: 24px;
+    color: black;
+    text-align: center;
+}
+
+.contact .card header {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0 0;
+}
+
+.contact .card header .headshot {
+    width: 180px;
+    height: 180px;
+    background-color: black;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.contact .card header .headshot > img {
+    width: 100%;
+    margin-top: -21px;
+}
+
+.contact .card header .info {
+    margin-top: 16px;
+}
+
+.contact .card header .info > p:first-of-type {
+    color: rgb(84, 201, 201);
+    font-size: 19px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.contact .card header .info > span {
+    color: rgb(148, 148, 148);
+    padding-top: 4px;
+}
+
+.contact .card header .addr {
+    padding-top: 8px;
+    color: rgb(148, 148, 148);
+    font-size: 14px;
+}
+
+.contact .card footer {
+    padding-top: 16px;
+}
+
+.contact .card footer .top {
+    width: 100%;
+    height: 124px;
+    background-color: #2cc6cd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .card footer .top > div a {
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    font-size: 21px;
+}
+
+.contact .card footer .top > div a:hover {
+    color: white;
+}
+
+.contact .card footer .options {
+    width: 100%;
+    height: 204px;
+    display: flex;
+}
+
+.contact .card footer .options > div {
+    height: 200px;
+    flex-basis: 33%;
+    background-color: #2cc6cd;
+    border-top: 4px solid rgb(140, 235, 235);
+    border-left: 4px solid rgb(140, 235, 235);
+    border-bottom: 4px solid rgb(140, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .card footer .bottom {
+    height: 24px;
+    width: 100%;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
+    background-color: #2cc6cd;
+}
+
+.contact .card footer .options a > svg {
+    fill: #1d7a7b;
+    width: 112px;
+    cursor: pointer;
+}
+
+.contact .card footer .options > div:nth-of-type(2) a > svg {
+    padding-left: 8px;
+    width: 140px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact .header h1 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .contact .header h1 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .contact .header h1 {
+        font-size: 32px;
+    }
+
+    .contact div.card {
+        width: 100%;
+    }
+
+    .contact .card footer .options a > svg {
+        width: 70%;
+    }
+
+    .contact .card footer .options > div:nth-of-type(2) a > svg {
+        padding-left: 8px;
+        width: 88%;
+    }
+}

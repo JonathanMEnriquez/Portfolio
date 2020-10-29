@@ -1,0 +1,31 @@
+button.button {
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    box-shadow: none;
+    border: 2px solid #d3d3d3;
+    cursor: pointer;
+}
+
+button.button:hover {
+    box-shadow: 0 0 10px #c4c238;
+}
+
+button.button > a {
+    color: rgb(168, 168, 168);
+    text-decoration: none;
+    letter-spacing: -1.5px;
+}
+
+button.button:hover > a {
+    color: rgb(199, 199, 199);
+}
+
+@media only screen 
+    and (max-width: 640px)
+    and (orientation: portrait) {
+    button.button > a {
+        letter-spacing: 0;
+        border-width: 4px;
+    }
+}

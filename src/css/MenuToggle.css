@@ -1,0 +1,32 @@
+.menu-toggle {
+    border: none;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    background-color: rgb(19, 19, 19);;
+    border-radius: 0 0 8px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    z-index: 101;
+}
+
+.menu-toggle:focus {
+    outline: none;
+}
+
+.menu-toggle .item {
+    position: relative;
+    top: -10px;
+    left: -28px;
+    width: 56%;
+    overflow: visible;
+    stroke: #fff;
+    stroke-width: 2;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+}

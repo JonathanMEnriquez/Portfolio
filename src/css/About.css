@@ -1,0 +1,142 @@
+.about {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    grid-gap: 2vw;
+}
+
+.about > section.info {
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.about > section.pics {
+    width: 100%;
+    height: 100%;
+}
+
+/* elements */
+.about > section.info > h1 {
+    font-size: 3vw;
+    padding: 2vw 0;
+}
+
+.about > section.info > p {
+    font-size: 1.3vw;
+    line-height: 1.8vw;
+    margin-bottom: 0.6vw;
+}
+
+.about > section.info > p.question {
+    font-size: 1vw;
+    padding: 8px 0 4px;
+    color: rgb(141, 141, 141);
+    margin-bottom: 0;
+}
+
+.about > section.info > p a {
+    color: unset;
+    text-decoration: none;
+}
+
+.about > section.info > p a:hover {
+    text-decoration: underline;
+}
+
+.about > section.info > div.schools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about > section.info svg {
+    fill: rgba(255, 255, 255, 0.918);
+    margin-right: 1vw;
+}
+
+.about > section.info img {
+    width: 100px;
+    object-fit: contain;
+}
+
+.about > section.info #institutions {
+    padding-top: 8px;
+}
+
+.about > section.info .logo {
+    fill: #e9c73e;
+}
+
+@media only screen and (max-width: 1415px) {
+    .about > section.info > h1 {
+        font-size: 3vw;
+        text-align: right;
+    }
+    
+    .about > section.info > p {
+        font-size: 1.7vw;
+        line-height: 2vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .about > section.info > p.question {
+        font-size: 1.2vw;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .about > section.info {
+        display: block;
+        width: 80%;
+    }
+
+    .about > section.info > h1 {
+        font-size: 4.5vw;
+        text-align: right;
+    }
+    
+    .about > section.info > p {
+        font-size: 2vw;
+        line-height: 2.4vw;
+        margin-bottom: 0.6vw;
+    }
+    
+    .about > section.info > p.question {
+        font-size: 1.8vw;
+    }
+}
+
+@media only screen 
+    and (max-width: 640px)
+    and (orientation: portrait) {
+    .about > section.info {
+        width: 50%;
+        margin-left: 6rem;
+        text-align: right;
+    }
+
+    .about > section.info > h1 {
+        font-size: 6vw;
+    }
+
+    .about > section.info > p {
+        font-size: 2.5vw;
+        line-height: 3vw;
+        margin-bottom: 1vw;
+    }
+    
+    .about > section.info > p.question {
+        font-size: 2.1vw;
+        color: rgb(170, 170, 170);
+        font-weight: bolder;
+    }
+
+    .about > section.pics {
+        overflow: auto !important;
+    }
+}
+
+/* .cls-1{fill:#231f20}.cls-2{fill:none;stroke:#231f20;stroke-width:2.17px} */
