@@ -2,7 +2,18 @@
     width: 100%;
     height: 100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
+}
+
+.contact .header {
+    width: calc(100% - 110px);
+    padding-left: 110px;
+}
+
+.contact .header h1 {
+    font-size: 3vw;
+    padding: 2vw 0;
 }
 
 .contact div.card {
@@ -31,6 +42,12 @@
     height: 180px;
     background-color: black;
     border-radius: 100%;
+    overflow: hidden;
+}
+
+.contact .card header .headshot > img {
+    width: 100%;
+    margin-top: -21px;
 }
 
 .contact .card header .info {
@@ -44,7 +61,7 @@
     padding-top: 16px;
 }
 
-.contact .card header .info > p:nth-of-type(2) {
+.contact .card header .info > span {
     color: rgb(148, 148, 148);
     padding-top: 4px;
 }
@@ -113,4 +130,35 @@
 .contact .card footer .options > div:nth-of-type(2) a > svg {
     padding-left: 8px;
     width: 140px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .contact .header h1 {
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+    .contact .header h1 {
+        font-size: 5vw;
+    }
+}
+
+@media only screen and (max-width: 510px) {
+    .contact .header h1 {
+        font-size: 32px;
+    }
+
+    .contact div.card {
+        width: 100%;
+    }
+
+    .contact .card footer .options a > svg {
+        width: 70%;
+    }
+
+    .contact .card footer .options > div:nth-of-type(2) a > svg {
+        padding-left: 8px;
+        width: 88%;
+    }
 }

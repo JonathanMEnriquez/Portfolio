@@ -1,23 +1,48 @@
-import React from 'react';
+import React, {useState} from 'react';
 import contentJSON from '../json/content.json';
 import '../css/Contact.css';
 import { motion } from 'framer-motion';
 import { google } from '../config/config.json';
+import ProfilePic from '../images/profile.jpg';
+import CopyDisplay from './CopyDisplay';
+
+const TOOLTIP_DEFAULT_MSG = 'Click to copy';
+const tooltipConfig = {
+    place: 'top',
+    type: 'dark',
+    effect: 'float',
+    condition: false
+};
 
 const Contact = ({ lang }) => {
     const name = contentJSON.main[lang || 'en'].name;
-    const { info, resume } = contentJSON.contact[lang || 'en'];
+    const { info, resume, header } = contentJSON.contact[lang || 'en'];
+    const [tooltipMessage, setTooltipMessage] = useState(TOOLTIP_DEFAULT_MSG);
+
+    const copyOnClick = () => {
+        navigator.clipboard.writeText(info.email)
+            .then(() => {
+                setTooltipMessage('Copied!');
+                setTimeout(() => setTooltipMessage(TOOLTIP_DEFAULT_MSG), 3000);
+            });
+    };
 
     return (
         <div className="contact">
+            <div className="header">
+                <h1>{header}</h1>
+            </div>
             <div className="card">
                 <header>
                     <div className="headshot">
-                        HOLA
+                        <img src={ProfilePic} alt="*" />
                     </div>
                     <div className="info">
                         <p>{name}</p>
-                        <p>{info.email}</p>
+                        <CopyDisplay text={info.email}
+                            tooltipMessage={tooltipMessage}
+                            tooltipConfig={tooltipConfig}
+                            clickHandler={copyOnClick} />
                         <div className="addr">
                             <p>{info.address}</p>
                             <p><span>{info.city}</span>, <span>{info.state}</span> <span>{info.zip}</span></p>

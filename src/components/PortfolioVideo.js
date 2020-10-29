@@ -20,7 +20,6 @@ const PortfolioVideo = ({ headerRef, windowListener }) => {
     };
 
     const windowResized = ({ width, height }) => {
-        console.log(width);
         const currWidth = attr && parseInt(attr.getNamedItem('width').value);
         if (currWidth !== width) {
             const newWidth = document.createAttribute('width');

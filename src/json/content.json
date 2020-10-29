@@ -327,6 +327,7 @@
     },
     "contact": {
         "en": {
+            "header": "contact me",
             "info": {
                 "address": "Clemson St.",
                 "city": "Los Angeles",
