@@ -15,15 +15,23 @@
         "en": {
             "header": "about me",
             "story": {
-                "main": "For the past 3 years, I've been a professional full stack engineer. As for which 'end' I prefer, that depends on the day you ask me.",
-                "main_2": "I really love coding so much that I almost always have a personal project that I'm working on (I'm currently working on a cool digital card game), try to complete a udemy course once a month, and enrolled myself in an online M.S. Computer Science program at Georgia Tech.",
-                "main_3": "At work, I strive to writing readable, efficient and elegant code.",
-                "enjoy_most_q": "favorite part about coding?",
-                "enjoy_most_a": "The problem-solving aspect of coding is what I enjoy the most. I love coming up with refactors or different approaches that work better...sometimes even in my dreams!",
-                "history": "MAYBE TALK ABOUT SOCIAL WORK AND CAREER CHANGE?",
-                "hobbies_q": "hobbies",
-                "hobbies_a": "When I'm not developing, I'll be smoking meats -- like brisket YUM!!! --, cooking, grillin', playing basketball  (not so much lately), or playing piano",
-                "contact": "Don't hesitate to reach out! I might be able to help!"
+                "main": [
+                    "I discovered my greatest passion and new career three and a half years ago. As a social worker, I imagined all of the ways that technology could help the lives of my disadvantaged older adult clients. I would dream of mobile applications that could improve their sense of isolation, increase their access to informational resources and support them as they navigated their healthcare. Constantly exposing myself to this reality motivated me to learn code on the side. Seeing how much I enjoyed developing on Swift, I took the plunge by expending my savings to leave my job and pursue formal coding education.",
+                    "I really love all the ways in which I can contribute to the building process to the extent that I always have a secondary project that I’ll work on weekends and weeknights. I’ve also been furthering my education by enrolling in the graduate program at the Georgia Institute of Technology."
+                ],
+                "approach": [
+                    "When working on a project, I strive to demonstrate strong dedication to being efficient and thorough. In practice, this translates to writing readable, efficient and elegant code.",
+                    "I have worked as a full-stack developer exclusively thus far in my career with an equal appreciation for the frontend, as well as the backend. I also find enjoyment in the tasks surrounding the development - like writing tests, doing QA, deploying, making wireframes and designing. If its involved in the production process, I can help and will enjoy helping!"
+                ],
+                "enjoy_most": [
+                    "The problem-solving aspect of coding is what I enjoy the most. I love coming up with opportunities for refactoring or different approaches that further improve my designs.",
+                    "I even find some of these solutions in my dreams, oddly enough."
+                ],
+                "hobbies": [
+                    "When I'm not developing, I'll be smoking meats -- like brisket YUM!!! --, cooking, grillin', playing basketball  (not so much lately), or playing piano.",
+                    "Honorable mentions have to go to playing board games (COUP!) and hiking."
+                ],
+                "contact": "Don't hesitate to reach out! I'm sure I can find a way to help!"
             },
             "imageInfo": {
                 "toon1": "Our dogs - Teddy and Maybe",
@@ -49,6 +57,25 @@
         },
         "es": {
             "header": "quién soy",
+            "story": {
+                "main": [
+                    "Descubrí mi mayor pasión y mi nueva carrera hace tres años y medio. Como trabajador social, imaginé todas las formas en que la tecnología podría ayudar a las vidas de mis clientes adultos mayores de edad de bajo recursos. Soñaría con aplicaciones móviles que pudieran mejorar sus emociones de aislamiento, aumentar su acceso a recursos informativos y apoyarlos mientras navegan por su atención médica. Exponerme constantemente a esta realidad me motivó a aprender código durante mi tiempo libre. Al ver lo mucho que disfrutaba hacer código en Swift, decidí gastar mis ahorros para dejar mi trabajo y seguir una educación formal sobre la codificación.",
+                    "Realmente me encantan todas las formas en las que puedo contribuir al proceso de la programación a la medida que siempre tengo un proyecto secundario en el que trabajo los fines de semana y las noches. También he estado mejorando mi educación al inscribirme en el programa de posgrado en el Instituto de Tecnología de Georgia."
+                ],
+                "approach": [
+                    "Cuando trabajo en un proyecto, me esfuerzo por demostrar una gran dedicación a ser eficiente y minucioso. En la práctica, me esfuerzo en escribir código legible, eficiente y elegante.",
+                    "He trabajado exclusivamente como ingeniero full-stack hasta ahora en mi carrera con apreciación ambos por el frontend, así como el backend. Incluso disfruto de las tareas relacionadas con el desarrollo, como escribir pruebas, hacer QA, implementar, hacer wireframes y diseñar. Si está involucrado en el proceso de producción, puedo ayudar y disfrutaré ayudando."
+                ],
+                "enjoy_most": [
+                    "El aspecto de la codificación que más disfruto es de resolver de problemas . Me encanta encontrar oportunidades para mejorar o intentar diferentes enfoques que mejoren aún más mis diseños.",
+                    "I even find some of these solutions in my dreams, oddly enough."
+                ],
+                "hobbies": [
+                    "Cuando no me estoy trabajando, estaré fumando carnes, como costillas ¡¡¡QUE DELICIA !!! -, cocinando, asando a la parrilla, jugando baloncesto (últimamente no tanto) o tocando el piano.",
+                    "Las menciones de honor van a los juegos de mesa (¡Como Coup!) y el senderismo."
+                ],
+                "contact": "¡No dudes en comunicarte conmigo! ¡Estoy seguro de que puedo encontrar una manera de ayudar!"
+            },
             "imageInfo": {
                 "toon1": "Nuestros perritos - Teddy y Maybe",
                 "toon2": "Mi esposa Laura y yo",
