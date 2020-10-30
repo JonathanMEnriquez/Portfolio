@@ -157,7 +157,7 @@
                     "total": 2
                 },
                 "databases": {
-                    "description": "I have been fortunate to work as a full stack developer on both sql and Nosql databases on every professional project I've been on. The experience of approaching each problem with an appropriate ",
+                    "description": "I have been fortunate to work as a full stack developer on both sql and Nosql databases on every professional project I've been on. The experience of approaching each problem with an appropriate database design -- taking the present and future needs of the project into account, etc - all of which is very exciting.",
                     "alias": ["db", "dbs"],
                     "related": ["mongodb", "sql", "mysql", "oraclesql", "backend", "fullstack"],
                     "experience": "~3 years",
@@ -173,7 +173,7 @@
                     "other": "Taught as a teaching assistant for 5 months"
                 },
                 "mysql": {
-                    "description": "My latest project, which involves many related tables, is utilizing MySQL as the database.",
+                    "description": "MySQL was the first database technology I learned. It was very challenging, but I'm glad to have learned how to work with it and later teach it during my time as a teaching assitant. I have worked on a few SQL-based projects now, and my latest project, which involves many related tables, is utilizing MySQL as the database.",
                     "alias": ["mysqldb", "mysqldatabase"],
                     "related": ["databases", "oraclesql", "sql", "backend"],
                     "experience": "~3 years",
@@ -348,6 +348,257 @@
                     "experience": "~3 years",
                     "total": 4,
                     "other": "Taught as a teaching assistant for 5 months"
+                }
+            }
+        },
+        "es": {
+            "header": "mi portfolio",
+            "technology": {
+                "default": {
+                    "description": "Haga clic en la tecnología / idioma a la derecha para obtener información más detallada sobre mi experiencia con esa tecnología en particular. También puede usar la entrada de búsqueda para encontrar una entrada específica o ajustar el parámetro de consulta 'tecnología' anterior.",
+                    "alias": [],
+                    "related": []
+                },
+                "javascript": {
+                    "description": "Tengo experiencia en el uso de Javascript en toda la pila: desde Node y Express hasta bibliotecas / marcos frontend de Javascript como React, KnockoutJS y Angular. Lo he utilizado principalmente en aplicaciones web, pero también tengo algo de experiencia usándolo para aplicaciones móviles (React Native) y escritorio (brevemente con Electron). Definitivamente es mi idioma favorito, por lo que generalmente codifico proyectos personales en él.",
+                    "alias": ["js", "es5", "es6", "json"],
+                    "related": ["jquery", "express", "react", "typescript", "angular", "mean", "mern", "knockoutjs", "node"],
+                    "experience": "~3 years",
+                    "display": "Javascript",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "typescript": {
+                    "description": "La mayor parte de mi experiencia con TypeScript proviene de mi tiempo como asistente de maestro en un bootcamp de programación llamado Coding Dojo. Es algo que utilizaré en mi próximo proyecto que es un juego para los amantes de los memes, con el fin de fortalecer mis habilidades de mecanografiado.",
+                    "alias": ["ts"],
+                    "related": ["express", "react", "javascript", "angular", "mean", "mern", "knockoutjs", "node"],
+                    "experience": "Non-professional experience of 3 months",
+                    "total": 0,
+                    "other": "Como asistente de maestro lo enseñé por 2 months"
+                },
+                "python": {
+                    "description": "Me gusta mucho la sintaxis de Python y tuve la suerte de trabajar en bastantes proyectos de producción basados en el Python durante mis dos años en TE. La mayor parte de mi experiencia fue creando APIs y las unit tests que las acompañan, pero también tengo experiencia con la creación de plantillas, la creación de elementos HTML en el backend, el procesamiento de datos y alguna experiencia menor en la depuración de código de ciencia de datos. Ha trabajado con PyCharm.",
+                    "alias": ["python2", "python3", "python2.0", "python3.0"],
+                    "related": ["django", "flask"],
+                    "experience": "~3 years",
+                    "total": 2,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "django": {
+                    "description": "He trabajado en aplicaciones web en producción de aplicaciones de ciberseguridad y análisis de datos utilizando Django en los últimos dos años. He trabajado con bases de datos SQL y No-SQL y he escrito unit tests extensas. Realmente disfruto la estructura y las herramientas integradas con las que viene Django. También fue el segundo marco con el que aprendí a trabajar.",
+                    "alias": ["pythondjango"],
+                    "related": ["python", "flask", "backend"],
+                    "experience": "~3 years",
+                    "total": 2,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "flask": {
+                    "description": "Flask fue la primera tecnología de backend que aprendí. También lo enseñé durante mi tiempo como asistente de enseñanza a estudiantes que eran principalmente nuevos a la codificación. Todavía tengo que usarlo fuera de los proyectos de los estudiantes, ya que los proyectos profesionales en los que he trabajado en Python han sido respaldados exclusivamente por Django.",
+                    "alias": ["pythonflask"],
+                    "related": ["django", "python", "backend"],
+                    "experience": "Non-professional experience of 3 months",
+                    "total": 0,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "react": {
+                    "description": "Recientemente completé una herramienta para calcular los resultados del juego de mesa Kingdom Crusaders (usándola en una aplicación sin servidor). Realmente disfruto desarrollando en React, especialmente utilizando ganchos. Me ha desafiado a emprender el desarrollo de manera más funcional y ver dónde puede brillar. Se ha convertido en mi favorito para la interfaz de mis proyectos personales. No tengo experiencia profesional directa con el uso de Redux (en lugar de hacer uso de la API de contexto), pero definitivamente estoy dispuesto a aprender.",
+                    "alias": ["reactjs"],
+                    "related": ["frontend", "express", "javascript", "typescript", "angular", "mern", "knockoutjs", "node"],
+                    "experience": "1 year",
+                    "total": 2
+                },
+                "databases": {
+                    "description": "He tenido la suerte de trabajar con ambos lados de la pila completa con bases de datos SQL y NoSQL en todos los proyectos profesionales en los que he estado. La experiencia de abordar cada problema con un diseño de base de datos adecuado, teniendo en cuenta las necesidades presentes y futuras del proyecto, etc., es muy emocionante.",
+                    "alias": ["db", "dbs"],
+                    "related": ["mongodb", "sql", "mysql", "oraclesql", "backend", "fullstack"],
+                    "experience": "~3 years",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "mongodb": {
+                    "description": "Mongo es la tecnología de base de datos con la que tengo más experiencia. Me gusta mucho la estructura de datos similar a JSON para diseños más simples no relacionados. La experiencia incluye el uso de la tubería de Mongo y algo de trabajo con Atlas.",
+                    "alias": ["mongo"],
+                    "related": ["databases", "backend"],
+                    "experience": "~3 years",
+                    "total": 3,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "mysql": {
+                    "description": "MySQL fue la primera tecnología de base de datos que aprendí. Fue muy desafiante, pero me alegra haber aprendido a trabajar con él y luego enseñarlo durante mi tiempo como asistente de maestro. Ahora he trabajado en algunos proyectos basados en SQL, y mi último proyecto, que involucra muchas tablas relacionadas, está utilizando MySQL como base de datos.",
+                    "alias": ["mysqldb", "mysqldatabase"],
+                    "related": ["databases", "oraclesql", "sql", "backend"],
+                    "experience": "~3 years",
+                    "total": 1,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "oraclesql": {
+                    "description": "oracle",
+                    "alias": ["oraclesqldb", "oraclesqldatabase"],
+                    "related": ["databases", "mysql", "sql", "backend"],
+                    "display": "OracleSQL",
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "sql": {
+                    "description": "sql",
+                    "alias": ["sqldb"],
+                    "related": ["databases", "oraclesql", "mysql", "backend"],
+                    "allCaps": true,
+                    "experience": "~3 years",
+                    "total": 2,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "angular": {
+                    "description": "I have experience working with Angular 2 - 5, which is different from AngularJS. It served as the frontend of my very first contract (building a web application for recreational sports teams) and having taught it at the coding bootcamp. I enjoyed the introduction to Typescript that it gave me. It was very exciting learning what frontend frameworks can accomplish.",
+                    "alias": ["angular5", "angular6", "angular7"],
+                    "related": ["frontend","express", "javascript", "typescript", "react", "mean", "knockoutjs", "node"],
+                    "experience": "8 months",
+                    "total": 1,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "mean": {
+                    "description": "The MongoDB - Express - Angular - Node stack was the stack I got my first professional contract experience. It was my go-to stack during my first 6 months as a professional.",
+                    "alias": [],
+                    "related": ["fullstack", "mongodb", "express", "angular", "node", "mern"],
+                    "allCaps": true,
+                    "experience": "6 months",
+                    "total": 1,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "mern": {
+                    "description": "The MongoDB - Express - React - Node stack is the newest stack I've worked with, utilizing it in my latest Meme-related game (one-part Desktop app, one-part web app). Its simplicity is a big plus for this stack.",
+                    "alias": [],
+                    "related": ["fullstack", "mongodb", "express", "react", "node", "mean"],
+                    "allCaps": true,
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "knockoutjs": {
+                    "description": "KnockoutJS is an interesting technology. I worked extensively with it over the past year and a half as the front end for a cyber solution application. It was a bit more overt with how elements were bound to JS variables than other libraries, which gives a little more understanding of what is happening under the hood, as well as having some very practical applications.",
+                    "alias": ["ko", "kojs", "knockout"],
+                    "related": ["express", "javascript", "typescript", "angular", "mean", "mern", "react", "node"],
+                    "display": "KnockoutJS",
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "aws": {
+                    "description": "I have some experience deploying personal and some professional projects, though I am in no means a DevOps engineer. Technologies I have experience with include EC2, Kinesis, S3, Lambda, Elastic Beanstalk, Cloudfront to varying degrees. I have deployed personal projects on EC2 and S3, and have utilized the rest professionally while working at TechEmpower.",
+                    "alias": ["amazonwebservices", "amazon", "ec2", "kinesis", "s3", "lambda", "elasticbeanstalk", "cloudfront"],
+                    "related": [],
+                    "allCaps": true,
+                    "experience": "~3 years",
+                    "total": 3
+                },
+                "html": {
+                    "description": "HTML, the markdown language that serves as the foundation of web pages. I've had extensive experience laying out web pages and templates it, as well as using templating engines. I have recentlly been studying the parsing process that the browser does with the HTML elements with great interest. I personally love that it prepped me for working with other Markdown languages.",
+                    "alias": ["html5"],
+                    "related": ["css", "javascript", "frontend"],
+                    "allCaps": true,
+                    "experience": "~3 years",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "css": {
+                    "description": "What I most like about CSS is the sheer amount of ways that it lets you select and change an HTML element's style. Recently, I have been trying to master using the pseudo-elements as well as improving my use of animations and transitions.",
+                    "alias": ["css3"],
+                    "related": ["css", "sass", "frontend"],
+                    "allCaps": true,
+                    "experience": "~3 years",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "sass": {
+                    "description": "I worked on a year-long project where the CSS preprocessor SASS was used. I liked the syntax and being able to more overtly associate elements - nesting also felt more natural to me. I have switched to using it on my latest personal project, as well.",
+                    "alias": ["less"],
+                    "related": ["css", "frontend"],
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "java": {
+                    "description": "Java is the newest language I've learned professionally. It was a great learning experience the past 18 months learning how to code for a statically-typed language, being that my two strongest languages (Javascript and Python) are both dynamically-typed.  I look forward to continuing to work with Java in the future. ",
+                    "alias": [],
+                    "related": ["jersey"],
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "jersey": {
+                    "description": "Java's Jersey was the framework I worked in the past year and a half for a cybersecurity application. Though I was still learning the language, I was able to positively contribute on the backend, including writing unit tests and some features.",
+                    "alias": [],
+                    "related": ["java", "backend"],
+                    "experience": "1 year",
+                    "total": 1
+                },
+                "reactnative": {
+                    "description": "I contributed to a React Native training application during its last push to release. It was during the time when I hadn't even worked with React, so it was definitely a little challenging. However, I was able to contribute to its on-time release.",
+                    "alias": ["rn"],
+                    "related": ["pwa", "react", "javascript"],
+                    "display": "React Native",
+                    "experience": "4 months",
+                    "total": 1
+                },
+                "pwa": {
+                    "description": "Having released Stream Panel as a Progressive Web App, I was very happy with the benefits and easy transition it was building it out as a PWA in lieu of natively. The benefits of not having to support older versions and great support also stand out. For anything other than a game, PWA is a strong option.",
+                    "alias": ["progressivewebapps", "progressivewebapp", "progressivewebapplications", "progressivewebapplication"],
+                    "related": ["react", "javascript", "reactnative"],
+                    "allCaps": true,
+                    "experience": "Non-professional experience of 6 months",
+                    "total": 1
+                },
+                "frontend": {
+                    "description": "From modernizing navbars to adding forms to doing some UX/UI work (and taking a course on it), I have quite a bit of experience doing frontend work. I have experience doing vanilla frontends (ES5 and HTML) and working with libraries and frameworks (Angular, React, Knockout, JQuery).",
+                    "alias": ["frontenddev", "frontenddevelopment", "ui", "ux", "ux/ui"],
+                    "related": ["knockoutjs", "react", "javascript", "angular"],
+                    "experience": "~3 years",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "backend": {
+                    "description": "From adding new collections or tables to creating REST endpoints to processing data, I have contributed heavily on backends for in-production projects. This has run the gamut from Python, Javascript and Java backends hooked up to No-SQL and SQL databases.",
+                    "alias": ["backenddev", "backenddevelopment"],
+                    "related": ["jquery", "express", "node", "django", "flask"],
+                    "experience": "~3 years",
+                    "total": 6,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "express": {
+                    "description": "Express was a part of the second stack I ever learned, along with MongoDB and Angular. I enjoy its simplicity and flexibility in accommodating various app flows. The majority of my experience stems from my time as a teaching assistant teaching the MEAN stack and from my initial professional project. I have used Express a lot on personal projects, including my first portfolio, however.",
+                    "alias": ["expressjs"],
+                    "related": ["backend", "node", "javascript"],
+                    "experience": "9 months",
+                    "total": 1,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "fullstack": {
+                    "description": "All of my professional experience has been working as a full-stack developer. I have worked on the frontend with frameworks and libraries (and vanilla, as well), and have worked on the backend with a diverse array of frameworks. I enjoy it very much as I get to constantly be challenged to learn to work with a new technology. There's never a dull moment.",
+                    "alias": ["fullstackdev", "fullstackdevelopment"],
+                    "related": ["backend", "frontend", "mern", "mern"],
+                    "experience": "~3 years",
+                    "total": 6
+                },
+                "node": {
+                    "description": "Node, along with its program manager npm, have been very heavily utilized in my professional career. Along with having utilized it in personal projects solely or by utilizing ExpressJS which is built atop it, I have also used it professionally in the TE Frameworks Benchmarks. I regularly peruse the npm website for more useful tools to use in my projects.",
+                    "alias": ["npm", "nodejs"],
+                    "related": ["backend", "express", "javascript"],
+                    "experience": "~3 years",
+                    "total": 4,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
+                },
+                "jquery": {
+                    "description": "JQuery was the first JS library that I was introduced to while studying web development. Though, most of the applications I’ve worked on have opted for frontend libraries and frameworks, I have worked on a few production applications that used it. I like the syntax more than vanilla Javascript for creating and modifying elements on the DOM.",
+                    "alias": [],
+                    "related": ["frontend", "express", "javascript", "typescript", "react", "mean", "knockoutjs", "node"],
+                    "experience": "~3 years",
+                    "total": 3,
+                    "other": "Como asistente de maestro lo enseñé por 2 months",
+                    "display": "JQuery"
+                },
+                "rest": {
+                    "description": "I have implemented RESTful API endpoints for frameworks in Python (Django), Javascript (Express, Node), and Java (Jersey). From simple CRUD operations to more complicated data processing, I have implemented a wide variety of RESTful endpoints on a diverse array of web applications.",
+                    "alias": ["restfulapis, restfulapi, restful"],
+                    "related": ["backend", "fullstack", "django", "express", "node"],
+                    "experience": "~3 years",
+                    "total": 4,
+                    "other": "Como asistente de maestro lo enseñé por 5 months"
                 }
             }
         }
