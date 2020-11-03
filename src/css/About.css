@@ -11,6 +11,8 @@
     height: 100%;
     display: block;
     margin: 0 auto;
+    position: relative;
+    overflow: auto;
 }
 
 .about > section.pics {
@@ -24,32 +26,73 @@
     padding: 2vw 0;
 }
 
-.about > section.info > p {
-    font-size: 1.3vw;
+.about > section.info > ul.topic-nav {
+    padding: 0 0 8px;
+    text-align: center;
+    color: rgb(230, 230, 230);
+}
+
+.about > section.info > ul.topic-nav > li {
+    display: inline;
+    margin-right: 0.5vw;
+    margin-bottom: 0.25vh;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about > section.info > ul.topic-nav > li:hover,
+.about > section.info > ul.topic-nav > li.selected {
+    color: rgb(173, 173, 173);
+}
+
+.about > section.info > ul.topic-nav > li.selected {
+    cursor: default;
+}
+
+.about > section.info > .about-body {
+    height: 580px;
+    overflow: auto;
+    margin: 8px 0;
+}
+
+.about > section.info > .about-body p {
+    font-size: 1.5vw;
     line-height: 1.8vw;
     margin-bottom: 0.6vw;
 }
 
-.about > section.info > p.question {
-    font-size: 1vw;
-    padding: 8px 0 4px;
-    color: rgb(141, 141, 141);
-    margin-bottom: 0;
+.about > section.info > footer {
+    width: 100%;
+    background-color: #1c1c1c;
+    margin-top: 1.5vh;
 }
 
+.about > section.info > footer .contact-me {
+    font-size: 12px;
+    padding: 8px 0 4px;
+    color: rgb(190, 190, 190);
+    margin-bottom: 0;
+    padding-bottom: 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.about > section.info > footer p.contact-me:hover {
+    text-decoration: underline;
+    color: rgb(230, 230, 230);
+}
+
+.about > section.info > footer a,
 .about > section.info > p a {
     color: unset;
     text-decoration: none;
 }
 
-.about > section.info > p a:hover {
-    text-decoration: underline;
-}
-
-.about > section.info > div.schools {
+.about > section.info > footer > div.schools {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: -12px;
 }
 
 .about > section.info svg {
@@ -122,13 +165,13 @@
         font-size: 6vw;
     }
 
-    .about > section.info > p {
+    .about > section.info p {
         font-size: 2.5vw;
         line-height: 3vw;
         margin-bottom: 1vw;
     }
     
-    .about > section.info > p.question {
+    .about > section.info p.contact-me {
         font-size: 2.1vw;
         color: rgb(170, 170, 170);
         font-weight: bolder;
@@ -138,5 +181,3 @@
         overflow: auto !important;
     }
 }
-
-/* .cls-1{fill:#231f20}.cls-2{fill:none;stroke:#231f20;stroke-width:2.17px} */
