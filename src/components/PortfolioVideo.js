@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import YouTube from 'react-youtube';
 import '../css/PortfolioVideo.css';
 
@@ -6,6 +6,13 @@ let listenerId = null;
 let attr = null;
 
 const PortfolioVideo = ({ headerRef, windowListener }) => {
+    useEffect(() => {
+        return () => {
+            windowListener.unsubscribe(listenerId);
+            listenerId = null;
+        };
+    }, []);
+
     const opts = {
         height: window.innerHeight,
         width: window.innerWidth,
