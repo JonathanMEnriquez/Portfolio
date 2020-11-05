@@ -18,7 +18,7 @@ const TechImage = ({ src, alt }) => {
         } else {
             setToggleDelay();
         }
-    }, [imageRef, toggle, maxHeight]);
+    }, [imageRef, toggle]);
 
     /* the useEffect above not working properly because the imageRef sometimes fires without having set the naturalWidth property 
         -- this is a workaround */
