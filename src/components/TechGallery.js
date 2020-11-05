@@ -13,7 +13,6 @@ import knockoutjs from '../images/technologies/knockoutjs.png';
 import mongodb from '../images/technologies/mongodb.png';
 import mysql from '../images/technologies/mysql.png';
 import node from '../images/technologies/node.png';
-import pwa from '../images/technologies/pwa.png';
 import python from '../images/technologies/python.png';
 import react from '../images/technologies/react.png';
 import '../css/TechGallery.css';
