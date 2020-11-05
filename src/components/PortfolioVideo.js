@@ -9,13 +9,9 @@ const PortfolioVideo = ({ headerRef, windowListener }) => {
     const opts = {
         height: window.innerHeight,
         width: window.innerWidth,
-        // playerVars: {
-        //     autoplay: 1,
-        //     loop: 1
-        // }
         playerVars: {
-            autoplay: 0,
-            loop: 0
+            autoplay: 1,
+            loop: 1
         }
     };
 
@@ -34,9 +30,9 @@ const PortfolioVideo = ({ headerRef, windowListener }) => {
     };
 
     const stateChangeHandler = e => {
-        // if (e.data !== 2) {
-        //     e.target.playVideo();
-        // }
+        if (e.data !== 2) {
+            e.target.playVideo();
+        }
     } 
 
     return <YouTube opts={opts} 

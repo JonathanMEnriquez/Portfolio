@@ -140,3 +140,14 @@
         flex-basis: unset;
     }
 }
+
+@media only screen and (max-width: 640px) {
+    .portfolio > .header > .header-info {
+
+    }
+
+    .portfolio > .header > .header-info .button {
+        font-size: 4vw !important;
+        width: 32vw;
+    }
+}

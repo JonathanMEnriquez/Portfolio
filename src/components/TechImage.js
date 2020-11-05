@@ -1,7 +1,7 @@
 import React, {createRef, useEffect, useState} from 'react';
 import { motion } from "framer-motion";
 
-const maxHeight = 64;
+let maxHeight = window.innerWidth > 640 ? 64 : 42;
 
 const setPixels = num => `${num}px`;
 
@@ -18,7 +18,7 @@ const TechImage = ({ src, alt }) => {
         } else {
             setToggleDelay();
         }
-    }, [imageRef, toggle]);
+    }, [imageRef, toggle, maxHeight]);
 
     /* the useEffect above not working properly because the imageRef sometimes fires without having set the naturalWidth property 
         -- this is a workaround */

@@ -56,8 +56,8 @@
 }
 
 .about > section.info > .about-body p {
-    font-size: 1.5vw;
-    line-height: 1.8vw;
+    font-size: 1.7vw;
+    line-height: 2.2vw;
     margin-bottom: 0.6vw;
 }
 
@@ -131,14 +131,24 @@
 }
 
 @media only screen and (max-width: 1020px) {
+    .about {
+        height: 1000px;
+    }
+
     .about > section.info {
         display: block;
         width: 80%;
+        height: 500px;
     }
 
     .about > section.info > h1 {
         font-size: 4.5vw;
         text-align: right;
+    }
+
+    .about > section.info > .about-body {
+        height: 400px;
+        margin: 8px 0 4px;
     }
     
     .about > section.info > p {
@@ -146,38 +156,79 @@
         line-height: 2.4vw;
         margin-bottom: 0.6vw;
     }
-    
-    .about > section.info > p.question {
-        font-size: 1.8vw;
+
+    .about > section.info > .about-body {
+        height: 240px;
+        margin: 8px 0 4px;
     }
 }
+
+@media only screen
+    and (max-width: 730px) {
+        .about {
+            height: 100%;
+        }
+
+        .about > section.info > .about-body {
+            height: 290px;
+            margin: 8px 0 4px;
+        }
+
+        .about > section.info > .about-body p {
+            font-size: 2.35vw;
+            line-height: 2.95vw;
+        }
+    }
 
 @media only screen 
     and (max-width: 640px)
     and (orientation: portrait) {
     .about > section.info {
-        width: 50%;
-        margin-left: 6rem;
+        width: 57%;
+        margin-left: 4rem;
         text-align: right;
+        overflow: hidden;
+        height: 380px;
     }
 
     .about > section.info > h1 {
         font-size: 6vw;
     }
 
-    .about > section.info p {
-        font-size: 2.5vw;
-        line-height: 3vw;
-        margin-bottom: 1vw;
+    .about > section.info > .about-body {
+        height: 190px;
+        margin: 0 0 4px;
+    }
+
+    .about > section.info > .about-body p {
+        font-size: 2.75vw;
+        line-height: 3.1vw;
     }
     
     .about > section.info p.contact-me {
-        font-size: 2.1vw;
+        font-size: 1.8vw;
         color: rgb(170, 170, 170);
         font-weight: bolder;
     }
 
     .about > section.pics {
         overflow: auto !important;
+    }
+
+    .about > section.info > ul.topic-nav {
+        padding: 0 0 16px 12px;
+    }
+    
+    .about > section.info > ul.topic-nav > li {
+        font-size: 3.5vw;
+        margin-right: 4px;
+    }
+
+    .about > section.info > footer {
+        margin-top: 8px;
+    }
+
+    .about > section.info > footer > div.schools {
+        margin-top: -24px;
     }
 }
