@@ -46,7 +46,6 @@ class WindowResizeListener {
     }
 
     informSubscribers(vals) {
-        console.log(this.subscribers.getAll());
         this.subscribers.getAll().forEach(sub => sub.callback(vals));
     }
 
