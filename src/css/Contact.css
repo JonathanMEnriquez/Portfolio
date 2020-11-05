@@ -144,7 +144,7 @@
     }
 }
 
-@media only screen and (max-width: 510px) {
+@media only screen and (max-width: 640px) {
     .contact .header h1 {
         font-size: 32px;
     }
@@ -160,5 +160,9 @@
     .contact .card footer .options > div:nth-of-type(2) a > svg {
         padding-left: 8px;
         width: 88%;
+    }
+
+    .contact .card footer .options > div {
+        height: 160px;
     }
 }

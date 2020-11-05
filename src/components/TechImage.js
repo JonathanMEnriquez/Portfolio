@@ -1,7 +1,7 @@
 import React, {createRef, useEffect, useState} from 'react';
 import { motion } from "framer-motion";
 
-const maxHeight = 64;
+let maxHeight = window.innerWidth > 640 ? 64 : 42;
 
 const setPixels = num => `${num}px`;
 

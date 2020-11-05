@@ -28,7 +28,7 @@ class SubscribersList {
     }
 
     unsubscribe(id) {
-        this.all[id] = null;
+        delete this.all[id];
     }
 }
 

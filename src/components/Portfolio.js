@@ -1,4 +1,4 @@
-import React, {createRef, useEffect} from 'react';
+import React, {createRef} from 'react';
 import { Link, useLocation, useHistory } from 'react-router-dom';
 import Button from './Button';
 import contentJSON from '../json/content.json';
