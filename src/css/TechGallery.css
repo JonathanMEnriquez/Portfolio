@@ -9,4 +9,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+}
+
+.gallery-container .display-info {
+    position: absolute;
+    top: 0;
+    right: 8px;
+    color: rgb(29, 157, 173);
+    width: 310px;
+    background-color: white;
+    padding: 8px 16px 12px;
+    border: 3px solid rgb(147, 248, 255);
+    border-radius: 16px;
+}
+
+.gallery-container .display-info .close {
+    margin-left: 298px;
+    cursor: pointer;
+    padding: 4px;
+    color: black;
+}
+
+.gallery-container .display-info p:first-of-type {
+    font-size: 16px;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.gallery-container .display-info p:last-of-type {
+    font-size: 12px;
+    color: rgb(112, 112, 112);
+}
+
+@media only screen 
+    and (max-width: 640px)
+    and (orientation: portrait) {
+        .gallery-container .display-info {
+            right: 0;
+            width: calc(100% - 16px);
+        }
+
+        .gallery-container .display-info .close {
+            font-size: 21px;
+            margin-left: 284px;
+        }
 }

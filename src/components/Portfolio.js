@@ -8,10 +8,11 @@ import { displayTitle, matchPortfolioContent, processRelatedTerms } from '../hel
 import Search from './Search';
 import TechGallery from './TechGallery';
 
-const Portfolio = ({ lang, windowListener }) => {
+const Portfolio = ({ lang, windowListener, images }) => {
     const headerRef = createRef();
     const history = useHistory();
     const mainText = contentJSON.main[lang || 'en'];
+    const galleryText = contentJSON.portfolio[lang || 'en'].gallery;
     const location = useLocation();
     const content = matchPortfolioContent(location && new URLSearchParams(location.search).get('tech'), lang || 'en');
     const relatedTerms = processRelatedTerms(content.related);
@@ -55,7 +56,7 @@ const Portfolio = ({ lang, windowListener }) => {
                 </section>
                 <section className="technology-gallery">
                     <Search lang={lang} history={history} content={content} />
-                    <TechGallery />
+                    <TechGallery text={galleryText} images={images} />
                 </section>
             </div>
         </div>

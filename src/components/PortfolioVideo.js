@@ -34,6 +34,7 @@ const PortfolioVideo = ({ headerRef, windowListener }) => {
     const setAttr = e => {
         attr = headerRef.current.children[1].children[0].attributes;
         listenerId = windowListener.subscribe(windowResized);
+        e.target.mute();
     };
 
     const stateChangeHandler = e => {
@@ -44,7 +45,7 @@ const PortfolioVideo = ({ headerRef, windowListener }) => {
 
     return <YouTube opts={opts} 
             onStateChange={stateChangeHandler} 
-            videoId="fa5ITnmzV84"
+            videoId="2LjshnQTQsM"
             onReady={setAttr} />
 }
 

@@ -13,6 +13,7 @@ import About from './About';
 import Portfolio from './Portfolio';
 import WindowResizeListener from '../helpers/windowResizeListener';
 import Contact from './Contact';
+import { techImages } from '../helpers/preload';
 
 const windowListener = new WindowResizeListener();
 
@@ -28,7 +29,7 @@ const sidebar = {
   closed: {
     clipPath: "circle(36px at 40px 40px)",
     transition: {
-      delay: 0.5,
+      delay: 0.1,
       type: "spring",
       stiffness: 400,
       damping: 40
@@ -60,7 +61,7 @@ export default function App() {
             <About lang={lang} />
           </Route>
           <Route path="/portfolio">
-            <Portfolio lang={lang} windowListener={windowListener} />
+            <Portfolio lang={lang} windowListener={windowListener} images={techImages} />
           </Route>
           <Route path="/contact">
             <Contact lang={lang} />

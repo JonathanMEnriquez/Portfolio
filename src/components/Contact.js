@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { google } from '../config/config.json';
 import ProfilePic from '../images/profile.jpg';
 import CopyDisplay from './CopyDisplay';
+import ReactTooltip from 'react-tooltip';
 
 const TOOLTIP_DEFAULT_MSG = 'Click to copy';
 const tooltipConfig = {
@@ -44,18 +45,32 @@ const Contact = ({ lang }) => {
                             tooltipConfig={tooltipConfig}
                             clickHandler={copyOnClick} />
                         <div className="addr">
-                            <p>{info.address}</p>
                             <p><span>{info.city}</span>, <span>{info.state}</span> <span>{info.zip}</span></p>
                         </div>
+                        <p className="resume-download">
+                        <a href={google.resumeLink} target="_blank" rel="noopener noreferrer" >
+                                    {resume.download}
+                                </a>
+                        </p>
                     </div>
                 </header>
                 <footer>
                     <div className="top">
-                        <motion.div whileHover={{ scale: 1.1 }}>
-                            <a href={google.resumeLink} target="_blank" rel="noopener noreferrer" >
-                                {resume.download}
-                            </a>
-                        </motion.div>
+                        <div className="history-grid">
+                            {resume.history.map((e, k) => (
+                                <motion.div key={k}
+                                    style={{backgroundColor: e.backgroundcolor}} data-tip data-for={"history" + e.title} >
+                                    <img src={e.imageurl} alt={e.title} />
+                                    <ReactTooltip id={"history" + e.title}
+                                        place={k % 2 === 0 ? 'right' : 'left'}
+                                        type={tooltipConfig.type}
+                                        effect={tooltipConfig.effect}
+                                        condition={tooltipConfig.condition} >
+                                        {`${e.title} ${e.tooltip}`}
+                                    </ReactTooltip>
+                                </motion.div>
+                            ))}
+                        </div>
                     </div>
                     <div className="options">
                         <div>

@@ -51,8 +51,8 @@
     flex-basis: 50%;
 }
 
-.portfolio > .portfolio-content > section:first-of-type {
-    padding: 24px 24px 24px 88px;
+.portfolio > .portfolio-content > section.technology-detail {
+    padding: 24px 24px 24px 96px;
     flex-basis: 50%;
 }
 
