@@ -628,25 +628,29 @@
                         "tooltip": "11/20 - Present",
                         "title": "Software Developer, UCLA Health, Contract",
                         "imageurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2Ff%2Ff1%2FUCLA-HealthSystem-Logo-RGB.png%2F220px-UCLA-HealthSystem-Logo-RGB.png&f=1&nofb=1",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://depression.semel.ucla.edu/studies_landing"
                     },
                     { 
                         "tooltip": "8/20 - 11/20",
                         "title": "Software Engineer Contract, Senntertain Games",
                         "imageurl": "https://static.wixstatic.com/media/180fc5_73287df08d604f79ba40c2e83b68705c.png/v1/fill/w_242,h_57,al_c,lg_1,q_85/180fc5_73287df08d604f79ba40c2e83b68705c.webp",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://www.senntertain.com/"
                     },
                     { 
                         "tooltip": "8/18 - 8/20",
                         "title": "Programmer I, TechEmpower",
                         "imageurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3910062%3Fs%3D200%26v%3D4&f=1&nofb=1",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://www.techempower.com/"
                     },
                     { 
                         "tooltip": "3/18 - 8/18",
                         "title": "Teaching Assistant, Coding Dojo",
                         "imageurl": "https://ml.globenewswire.com/Resource/Download/a4f3be8b-5c34-44b3-98a9-5b7e5338f271?size=2",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://www.codingdojo.com/"
                     }
                 ]
             }
@@ -667,25 +671,29 @@
                         "tooltip": "11/20 - Presente",
                         "title": "Software Developer, UCLA Health, Contract",
                         "imageurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.theblocla.com%2Fwp-content%2Fthemes%2Fbloc%2Fassets%2Fimages%2Flogo-ucla-health.png&f=1&nofb=1",
-                        "backgroundcolor": "#2874ad"
+                        "backgroundcolor": "#2874ad",
+                        "url": "https://depression.semel.ucla.edu/studies_landing"
                     },
                     { 
                         "tooltip": "8/20 - 11/20",
                         "title": "Software Engineer Contract, Senntertain Games",
                         "imageurl": "https://static.wixstatic.com/media/180fc5_73287df08d604f79ba40c2e83b68705c.png/v1/fill/w_242,h_57,al_c,lg_1,q_85/180fc5_73287df08d604f79ba40c2e83b68705c.webp",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://www.senntertain.com/"
                     },
                     { 
                         "tooltip": "8/18 - 8/20",
                         "title": "Programmer I, TechEmpower",
                         "imageurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Favatars0.githubusercontent.com%2Fu%2F3910062%3Fs%3D200%26v%3D4&f=1&nofb=1",
-                        "backgroundcolor": "#FFFFFF"
+                        "backgroundcolor": "#FFFFFF",
+                        "url": "https://www.techempower.com/"
                     },
                     { 
                         "tooltip": "3/18 - 8/18",
                         "title": "Asistente de Maestro, Coding Dojo",
                         "imageurl": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Finsidehpc.com%2Fwp-content%2Fuploads%2F2019%2F11%2Fcodingdojo.jpg&f=1&nofb=1",
-                        "backgroundcolor": "#000000"
+                        "backgroundcolor": "#000000",
+                        "url": "https://www.codingdojo.com/"
                     }
                 ]
             }

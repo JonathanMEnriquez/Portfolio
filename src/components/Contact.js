@@ -48,9 +48,9 @@ const Contact = ({ lang }) => {
                             <p><span>{info.city}</span>, <span>{info.state}</span> <span>{info.zip}</span></p>
                         </div>
                         <p className="resume-download">
-                        <a href={google.resumeLink} target="_blank" rel="noopener noreferrer" >
+                            <a href={google.resumeLink} target="_blank" rel="noopener noreferrer" >
                                     {resume.download}
-                                </a>
+                            </a>
                         </p>
                     </div>
                 </header>
@@ -58,17 +58,19 @@ const Contact = ({ lang }) => {
                     <div className="top">
                         <div className="history-grid">
                             {resume.history.map((e, k) => (
-                                <motion.div key={k}
-                                    style={{backgroundColor: e.backgroundcolor}} data-tip data-for={"history" + e.title} >
-                                    <img src={e.imageurl} alt={e.title} />
-                                    <ReactTooltip id={"history" + e.title}
-                                        place={k % 2 === 0 ? 'right' : 'left'}
-                                        type={tooltipConfig.type}
-                                        effect={tooltipConfig.effect}
-                                        condition={tooltipConfig.condition} >
-                                        {`${e.title} ${e.tooltip}`}
-                                    </ReactTooltip>
-                                </motion.div>
+                                <a href={e.url} target="_blank" rel="noopener noreferrer" >
+                                    <motion.div key={k}
+                                        style={{backgroundColor: e.backgroundcolor}} data-tip data-for={"history" + e.title} >
+                                        <img src={e.imageurl} alt={e.title} />
+                                        <ReactTooltip id={"history" + e.title}
+                                            place={k % 2 === 0 ? 'right' : 'left'}
+                                            type={tooltipConfig.type}
+                                            effect={tooltipConfig.effect}
+                                            condition={tooltipConfig.condition} >
+                                            {`${e.title} ${e.tooltip}`}
+                                        </ReactTooltip>
+                                    </motion.div>
+                                </a>
                             ))}
                         </div>
                     </div>
